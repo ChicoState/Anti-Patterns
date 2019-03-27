@@ -5,6 +5,10 @@ When a class is too simple, it can become an anemic class. This can lead to havi
 According to Fowler on his [website](https://www.martinfowler.com/bliki/AnemicDomainModel.html), anemic classes are "little more than bags of getters and setters", and can be hard to spot as they often appear to be normal classes.
 
 1. What is the Anti-Pattern?
+```
+Our Anti-Pattern is Anemic Domain Pattern.
+```
+
 2. What is an example?
 
 ## Example 
