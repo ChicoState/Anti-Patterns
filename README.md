@@ -15,5 +15,5 @@ This repository provides a quick reference to anti-patterns in Software Engineer
 * Reinvent The Wheel
 * [Sequence Coupling](sequence_coupling.md)
 * Swiss Army Knife
-* Vendor Lock-in(VendorLockIn.md)
+* [Vendor Lock-in](VendorLockIn.md)
 
