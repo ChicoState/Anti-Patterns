@@ -26,9 +26,12 @@ for (int i = 0; i < 5; i++) {
 
 ## Problems
 
+Harmful because it is harder to read, and it's doing pointless checks which slows
+down the process.
 
 ## How to fix it
 
-
+Take out the steps that you know are going to execute in a certain order out of the loop
+and do them before or after.
 
 Code examples from [wiki visually](https://wikivisually.com/wiki/Loop-switch_sequence)
