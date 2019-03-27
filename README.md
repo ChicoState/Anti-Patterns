@@ -11,9 +11,9 @@ This repository provides a quick reference to anti-patterns in Software Engineer
 * [Diaper Pattern](DiaperPattern.md)
 * [Gold Plating](gold_plating.md)
 * Loop-Switch Sequence
-* Object Orgy
+* [Object Orgy](object_orgy.md)
 * Reinvent The Wheel
 * [Sequence Coupling](sequence_coupling.md)
-* Swiss Army Knife
+* [Swiss Army Knife](swiss.md)
 * Vendor Lock-in
 
