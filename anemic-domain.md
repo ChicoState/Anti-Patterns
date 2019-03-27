@@ -49,8 +49,6 @@ class Box
 
 
 3. How/Why is it harmful?
-```
-If we are creating a class without business logic then that removes the purpose of using object oriented model.
-```
+If we are creating a class without business logic, it goes against the reasons for using the object oriented model in the first place.
 
 4. How do we fix it?
