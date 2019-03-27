@@ -13,7 +13,7 @@ This repository provides a quick reference to anti-patterns in Software Engineer
 * Loop-Switch Sequence
 * Object Orgy
 * Reinvent The Wheel
-* Sequence Coupling
+* [Sequence Coupling] (sequence_coupling.md)
 * Swiss Army Knife
 * Vendor Lock-in
 
