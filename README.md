@@ -8,7 +8,7 @@ This repository provides a quick reference to anti-patterns in Software Engineer
 
 * Anemic Domain Model
 * Busy Waiting
-* Diaper Pattern
+* [Diaper Pattern](DiaperPattern.md)
 * Gold Plating
 * Loop-Switch Sequence
 * Object Orgy
