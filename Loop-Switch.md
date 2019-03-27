@@ -1,12 +1,11 @@
-# Loop-Switch Swquence
+# Loop-Switch Sequence
 
-# Example
+## Example
 
   //Code goes here
   
-  
-# Problems
+## Problems
 
 
-# How to fix it
+## How to fix it
 
