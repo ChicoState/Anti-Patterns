@@ -10,7 +10,7 @@ This repository provides a quick reference to anti-patterns in Software Engineer
 * Busy Waiting
 * Diaper Pattern
 * Gold Plating
-* Loop-Switch Sequence
+* [Loop-Switch Sequence](Loop-Switch.md)
 * Object Orgy
 * Reinvent The Wheel
 * Sequence Coupling
