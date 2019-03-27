@@ -53,3 +53,4 @@ class Box
 If we are creating a class without business logic, it goes against the reasons for using the object oriented model in the first place.
 
 ## How do we fix it?
+By encapsulating all business logic in the class and making sure that classes don't perform the business logic of other classes.
