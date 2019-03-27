@@ -12,7 +12,7 @@ This repository provides a quick reference to anti-patterns in Software Engineer
 * Gold Plating
 * Loop-Switch Sequence
 * Object Orgy
-* Reinvent The Wheel
+* [Reinvent The Wheel](reinvent_the_wheel.md)
 * Sequence Coupling
 * Swiss Army Knife
 * Vendor Lock-in
