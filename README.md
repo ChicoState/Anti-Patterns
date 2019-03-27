@@ -14,6 +14,6 @@ This repository provides a quick reference to anti-patterns in Software Engineer
 * [Object Orgy](object_orgy.md)
 * Reinvent The Wheel
 * [Sequence Coupling](sequence_coupling.md)
-* [Vendor Lock-in](VendorLockIn.md)
 * [Swiss Army Knife](swiss.md)
+* [Vendor Lock-in](VendorLockIn.md)
 
