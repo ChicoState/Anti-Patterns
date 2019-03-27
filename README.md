@@ -6,7 +6,7 @@ This repository provides a quick reference to anti-patterns in Software Engineer
 
 ## Anti-Patterns
 
-* Anemic Domain Model
+* [Anemic Domain Model](anemic-domain.md)
 * [Busy Waiting](BusyWaiting.md)
 * [Diaper Pattern](DiaperPattern.md)
 * [Gold Plating](gold_plating.md)
@@ -15,5 +15,5 @@ This repository provides a quick reference to anti-patterns in Software Engineer
 * Reinvent The Wheel
 * [Sequence Coupling](sequence_coupling.md)
 * [Swiss Army Knife](swiss.md)
-* Vendor Lock-in
+* [Vendor Lock-in](VendorLockIn.md)
 
