@@ -6,8 +6,6 @@ According to Fowler on his [website](https://www.martinfowler.com/bliki/AnemicDo
 
 1. What is the Anti-Pattern?
 2. What is an example?
-3. How/Why is it harmful?
-4. How do we fix it?
 
 ## Example 
 Anemic
@@ -44,3 +42,7 @@ class Box
     }
 }
 ```
+
+
+3. How/Why is it harmful?
+4. How do we fix it?
