@@ -19,7 +19,7 @@ Small improvements can be made by using sleep or delay functions as well.
 
 This is a perfect example of bad code that stalls a program an severly prohibits run time. Here is what is considered a Bad Sleep. We are incrementing a counter until we reach a big number to stall the program.
 
-```{c++}
+```c++
 int counter = 0;
 while(counter <= INT_MAX){
     counter++;
