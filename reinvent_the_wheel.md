@@ -1,20 +1,38 @@
-# Reinvent The Wheel
+# Reinvent the Wheel
 
-## How to recognize your anti-pattern:
-* Closed system architectures—architectures and software—that are designed for one system at a time without provision for reuse and interoperability.
-* unstable architectures
-* extended development cycle.
+### This is an example of reinventing the wheel
 
-## An example of the Anti-Pttern:
-* no communication between projects.
-* lack of managment.
-* no set development process.
+```cpp
+void add(int a, int b, int &product) {
+    product = 0;
+    for(int i = 0; i < abs(a); i++) {
+        if(a < 0) {
+            product--;
+        } else if(a > 0) {
+            product++;
+        }  
+    }
+    for(int i = 0; i < abs(b); i++) {
+        if(b < 0) {
+            product--;
+        } else if(b > 0) {
+            product++;
+        }   
+    }
+}
 
-## Why is it harmful:
-* Inability to deliver end product to users.
-* Cost over exceeding budgets
-* Inefficient development process 
+add(a, b, c);
+```
 
-## solutions:
-* Architecture mining = creates an object oriented architecture that is robust, product-independent, reusable, and extensible 
-* Extracting valuable information from past designs for use in object-oriented architectures is called architecture mining
+### This is a reinvention of the basic
+
+```cpp
+product = a + b;
+```
+
+We didn’t need to go through all that trouble, and to make things worse it’s much more inefficient.
+
+Writing code from scratch in a production environment is a waste of time, since code that performs a variety of useful functions already exists for you to use. Unless you are a researcher trying to invent more efficient implementations, chances are that someone else has already written something better than what you are envisioning.
+
+
+To avoid copyright infringement and code plagiarism, developers may implement an existing algorithm or other portion of code. Some developers, as a result of limitation through architecture may need to implement something differently and in such a way that is less efficient than commonly used and readily available implementations.
