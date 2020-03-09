@@ -1,26 +1,34 @@
 # Sequence Coupling
 
-This anti-pattern can be recognized by most of the time analyzing function names and their purpose.
-This is particularly important for functions that need to occur in order such as a 'start' function and 'end' function. 
+This anti-pattern can be recognized by most of the time analyzing function names and their purpose. It is often noticeable when functions need to be called in a certain order.
 
 ## Example
+```{C++}
+void User::set_name(string n){
+  name = n;
+}
 
-(found from OneRemote/Main/Main.ino (https://github.com/ChicoState/OneRemote/blob/master/Main/Main.ino))
-
-In the case of the code we found, our setup encapsulates a number of actions that could be further encapsulated seperately for clarity.
-More specifically the WIFI setup which contains 3 functions and also the Web Server which also contains 3 functions.
+void User::print_name(){
+  if(name == "Josh"){
+    cout<<"Congrats! You have the lucky name."<<endl;
+  }
+  else{
+    cout<<name<<endl;
+  }
+}
+```
+In this example, if print_name() is called before set_name(), an error will be thrown because name is not initialized.
 
 ## Harms
 
 It is harmful because it inhibits code useability and readability.
-There is a high risk of the code not properly running without proper ordering.
+There is a high risk of the code not properly running without proper ordering of function calls.
 Also, in future additions to code, the setup or current method could become too cluttered and complicated.
 
-## Antidote
+## Fix
 
-Find lines of code with simularities and encapsulate them into their own descriptive, seperate functions.
-Find some means of making the order of the required commands clearer, either through commenting or more specific function naming.
-
+This code can be fixed by adding independence to functions. If code/functions needs to be sequential, add documentation stating that.
 
 
-(found from Wiki3 (http://wiki3.cosc.canterbury.ac.nz/index.php/Sequential_coupling))
+
+(found from Wikipedia (https://en.wikipedia.org/wiki/Sequential_coupling))
