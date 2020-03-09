@@ -49,3 +49,4 @@ Classes should be broken into their most minimal part while still being function
 
 
 https://sourcemaking.com/antipatterns/swiss-army-knife
+https://www.c-sharpcorner.com/article/god-object-a-code-smell/
