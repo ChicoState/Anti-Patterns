@@ -19,7 +19,7 @@
   * An Example Of The Anti-Pattern:
     by declaring a friend function within class
 
-'''
+```
 class Temperature
 {
   int cel;
